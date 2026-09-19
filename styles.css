@@ -1225,3 +1225,42 @@ footer {
   }
 
 }
+
+
+/* --------------------------------------------------
+   Project separation
+-------------------------------------------------- */
+
+
+.verification-summary {
+
+  margin-top: 45px;
+  padding: 28px;
+
+  background: var(--soft-background);
+  border-left: 3px solid var(--dark);
+
+}
+
+
+.verification-summary h3 {
+
+  margin-top: 0;
+
+}
+
+
+.verification-summary p {
+
+  color: var(--muted);
+
+}
+
+
+
+.monthly-family-section {
+
+  border-top: 1px solid var(--border);
+
+}
+
