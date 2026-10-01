@@ -1264,3 +1264,216 @@ footer {
 
 }
 
+
+
+/* Donor experience improvements */
+
+
+.hero-goal {
+
+  margin: 35px 0;
+
+  display: flex;
+  gap: 25px;
+  flex-wrap: wrap;
+
+}
+
+
+.hero-goal div {
+
+  padding: 20px 25px;
+
+  border: 1px solid var(--border);
+  border-radius: 10px;
+
+}
+
+
+.hero-goal span,
+.hero-goal strong {
+
+  display: block;
+
+}
+
+
+.hero-goal span {
+
+  color: var(--muted);
+  font-size: 13px;
+
+}
+
+
+.hero-goal strong {
+
+  margin-top: 5px;
+  font-size: 28px;
+
+}
+
+
+.hero-actions {
+
+  display:flex;
+  gap:15px;
+  margin-top:30px;
+
+}
+
+
+.primary-button,
+.secondary-button {
+
+  padding:14px 25px;
+  border-radius:8px;
+  text-decoration:none;
+  font-weight:600;
+
+}
+
+
+.primary-button {
+
+  background:var(--dark);
+  color:white;
+
+}
+
+
+.secondary-button {
+
+  border:1px solid var(--border);
+  color:var(--dark);
+
+}
+
+
+.hero-note {
+
+  margin-top:20px;
+  color:var(--muted);
+
+}
+
+
+.faq-item {
+
+  margin-top:35px;
+
+}
+
+
+.faq-item h3 {
+
+  margin-bottom:10px;
+
+}
+
+
+.faq-item p {
+
+  color:var(--muted);
+
+}
+
+
+/* Hero layout fix */
+
+.hero {
+  padding: 100px 0 80px;
+}
+
+.hero-content {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 0 40px;
+}
+
+.hero h1 {
+  max-width: 900px;
+  font-size: clamp(48px, 7vw, 90px);
+  line-height: 0.95;
+  letter-spacing: -0.05em;
+}
+
+.hero-description {
+  max-width: 750px;
+  margin-top: 35px;
+  font-size: 20px;
+  line-height: 1.5;
+}
+
+.hero-goal {
+  max-width: 800px;
+}
+
+.hero-actions {
+  margin-top: 35px;
+}
+/* Reduce hero spacing */
+
+.hero {
+  padding: 60px 0 50px;
+}
+
+.hero-content {
+  padding-top: 0;
+  padding-bottom: 0;
+}
+/* Highlight Donate in navigation */
+
+.nav-links .nav-donate {
+  color: var(--text);
+  border: 1px solid var(--text);
+  padding: 8px 14px;
+  border-radius: 6px;
+  margin-top: -8px;
+  margin-bottom: -8px;
+}
+
+.nav-links .nav-donate:hover {
+  background: var(--text);
+  color: var(--background);
+}
+
+/* Hero donation buttons */
+
+.hero-actions {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  flex-wrap: wrap;
+}
+
+.hero-actions a {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  white-space: nowrap;
+}
+
+/* Hero progress bar */
+
+.hero-progress {
+  margin-top: 18px;
+  max-width: 800px;
+}
+
+.hero-progress-track {
+  width: 100%;
+  height: 8px;
+  background: var(--border);
+  border-radius: 999px;
+  overflow: hidden;
+}
+
+.hero-progress-fill {
+  height: 100%;
+  width: 0;
+  background: var(--dark);
+  border-radius: 999px;
+  transition: width 0.3s ease;
+}
+

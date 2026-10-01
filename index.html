@@ -22,11 +22,13 @@
     <a class="logo" href="#">Iran Support</a>
 
     <nav class="nav-links" aria-label="Main navigation">
-      <a href="#campaign">Current campaign</a>
-      <a href="#monthly">Monthly support</a>
-      <a href="#impact">Our work</a>
+      <a href="#campaign">Campaign</a>
+      <a href="#who-we-are">Who we are</a>
+      <a href="#monthly">Ongoing support</a>
       <a href="#how">How it works</a>
-      <a href="#support">Support</a>
+      <a href="#impact">Our work</a>
+      <a href="#faq">FAQ</a>
+      <a href="#support" class="nav-donate">Donate</a>
     </nav>
 
   </div>
@@ -35,62 +37,80 @@
 
 <main>
 
-  <section class="hero">
 
-    <div class="hero-inner">
+<section class="hero">
 
-      <p class="eyebrow">
-        Independent community initiative
-      </p>
+  <div class="hero-content">
 
-      <h1>
-        Direct support for people in Iran facing financial hardship.
-      </h1>
+    <p class="eyebrow">
+      Independent humanitarian support initiative
+    </p>
 
-      <p class="hero-text">
-        We are building a transparent way for Iranians in the diaspora
-        and others who want to help to contribute toward essential needs
-        such as food, medicine and housing.
-      </p>
 
-      <div class="hero-actions">
-        <a class="button primary" href="#support">
-          Support the initiative
-        </a>
+    <h1>
+      Direct support for people in Iran facing financial hardship.
+    </h1>
 
-        <a class="button secondary" href="#how">
-          How it works
-        </a>
+
+    <p class="hero-description">
+      We connect contributions from Iranians abroad and supporters
+      worldwide with verified families who need help with essential
+      living costs including food, medicine, healthcare and housing.
+    </p>
+
+
+    <div class="hero-goal">
+
+      <div>
+        <span>Current monthly goal</span>
+        <strong>€1,100</strong>
+      </div>
+
+
+      <div>
+        <span>Progress</span>
+        <strong>
+          €<span id="campaign-raised">0</span> raised ·
+          €<span id="campaign-remaining">1,100</span> still needed
+        </strong>
+      </div>
+
+      <div class="hero-progress">
+        <div class="hero-progress-track">
+          <div
+            id="campaign-progress"
+            class="hero-progress-fill"
+            style="width: 0%;"
+          ></div>
+        </div>
       </div>
 
     </div>
 
-  </section>
 
+    <div class="hero-actions">
 
-  <section class="principles">
+      <a class="primary-button" href="#support">
+        Donate €10
+      </a>
 
-    <div class="principle">
-      <strong>Independent</strong>
-      <span>Community-led initiative</span>
+      <a class="secondary-button" href="#support">
+        Donate another amount
+      </a>
+
     </div>
 
-    <div class="principle">
-      <strong>Practical</strong>
-      <span>Focused on essential needs</span>
-    </div>
 
-    <div class="principle">
-      <strong>Transparent</strong>
-      <span>Regular anonymised reporting</span>
-    </div>
-
-  </section>
+    <p class="hero-note">
+      €10, €20 or €50 can help cover food, medicine,
+      healthcare and housing.
+    </p>
 
 
+  </div>
 
-
-  <!-- FAMILY SUPPORT FUND -->
+</section>
+<!-- FAMILY SUPPORT FUND -->
 
   <section id="campaign" class="section campaign-section">
 
@@ -164,42 +184,65 @@
 
   </section>
 
+<section class="principles">
 
-
-
-
-  <section id="about" class="section">
-
-    <div class="section-label">
-      About
+    <div class="principle">
+      <strong>Independent</strong>
+      <span>Community-led initiative</span>
     </div>
 
-    <div class="section-content">
+    <div class="principle">
+      <strong>Practical</strong>
+      <span>Focused on essential needs</span>
+    </div>
 
-      <h2>
-        Small contributions can make a meaningful difference.
-      </h2>
-
-      <p>
-        Many people in Iran are struggling with the cost of basic
-        necessities. The purpose of this initiative is simple:
-        to collect financial support from people who want to help
-        and direct it toward individuals and families experiencing
-        genuine financial hardship.
-      </p>
-
-      <p>
-        Assistance is intended for essential needs such as food,
-        medication, healthcare expenses, housing and other urgent
-        living costs.
-      </p>
-
+    <div class="principle">
+      <strong>Transparent</strong>
+      <span>Regular anonymised reporting</span>
     </div>
 
   </section>
 
+<section id="who-we-are" class="section section-alt">
 
-  <section id="how" class="section section-alt">
+  <div class="section-label">
+    Who we are
+  </div>
+
+
+  <div class="section-content">
+
+    <h2>
+      A volunteer network built through personal connections.
+    </h2>
+
+
+    <p>
+      We are a small network of Iranians living abroad, together with
+      trusted local contacts who help us understand and verify requests
+      for assistance.
+    </p>
+
+
+    <p>
+      The initiative began through personal networks and has been
+      operating privately since January 2026.
+    </p>
+
+
+    <p>
+      For security reasons, we do not identify recipients or local
+      contacts publicly. Members of the initiative based outside Iran
+      coordinate fundraising and maintain financial records.
+    </p>
+
+
+  </div>
+
+</section>
+
+
+<section id="how" class="section section-alt">
 
     <div class="section-label">
       How it works
@@ -339,8 +382,7 @@
 
 
   <!-- PREVIOUS WORK -->
-
-  <section id="impact" class="section section-alt">
+<section id="impact" class="section section-alt">
 
     <div class="section-label">
       Our work so far
@@ -395,8 +437,7 @@
 
   </section>
 
-
-  <section id="transparency" class="section">
+<section id="transparency" class="section">
 
     <div class="section-label">
       Transparency
@@ -409,8 +450,8 @@
       </h2>
 
       <p>
-        Once fundraising begins, this section will provide regular
-        summaries of contributions and distributions.
+        This section will provide regular summaries of contributions
+        and distributions.
       </p>
 
       <div class="stats">
@@ -433,49 +474,14 @@
       </div>
 
       <p class="status-note">
-        Fundraising has not started yet.
+        The current campaign is open.
       </p>
 
     </div>
 
   </section>
 
-
-
-  <!-- VERIFICATION -->
-
-  <section class="section verification-section">
-
-    <div class="section-label">
-      Verification
-    </div>
-
-    <div class="section-content">
-
-      <h2>
-        How requests are reviewed.
-      </h2>
-
-      <p>
-        Cases are assessed using a combination of available documentation,
-        trusted referrals, local verification and, where possible, direct
-        contact.
-      </p>
-
-      <p>
-        Verification cannot eliminate every uncertainty. Our aim is to make
-        reasonable checks before assistance is provided and to document
-        distributions internally without exposing recipients publicly.
-      </p>
-
-    </div>
-
-  </section>
-
-
-
-
-  <section id="support" class="support-section">
+<section id="support" class="support-section">
 
     <div class="support-inner">
 
@@ -525,7 +531,7 @@
           <h3>PayPal</h3>
 
           <p>
-            Contribute securely through PayPal.
+            Contribute through PayPal. Payments are processed by PayPal.
           </p>
 
           <a
@@ -545,7 +551,7 @@
           <h3>Revolut</h3>
 
           <p>
-            Contribute securely through Revolut.
+            Contribute through Revolut. Payments are processed by Revolut.
           </p>
 
           <a
@@ -564,13 +570,18 @@
 
       <div class="allocation-note">
 
-        <strong>What should I write with my contribution?</strong>
+        <strong>Payment notes</strong>
 
         <p>
-          If the payment service allows you to add a note, please write
-          <strong>Family Support Fund</strong> for the monthly family fund
-          or <strong>Ongoing Support</strong> if you want your contribution
-          directed toward a continuing individual case.
+          If you want your contribution to support a specific project, you can
+          write <strong>Family Support Fund</strong> for the current monthly
+          family fund, or <strong>Ongoing Support</strong> for the separate
+          household requiring continuing monthly assistance.
+        </p>
+
+        <p>
+          Please do not include recipient names or other sensitive personal
+          information in payment notes.
         </p>
 
         <p>
@@ -585,8 +596,7 @@
 
         <p>
           This is an independent private aid initiative and not a
-          registered charitable organisation. Contributions are voluntary
-          and are not tax-deductible in Germany.
+          registered charitable organisation. Contributions are voluntary.
         </p>
 
         <p>
@@ -604,7 +614,7 @@
 
 
 
-  <section class="updates">
+<section class="updates">
 
     <div class="updates-inner">
 
@@ -618,53 +628,14 @@
         </h2>
 
         <p>
-          An optional email update service will be added before launch.
+          Updates will be published here as the initiative develops.
         </p>
       </div>
 
-      <div class="email-placeholder">
-        Email updates coming soon
-      </div>
-
     </div>
 
   </section>
-
-
-
-
-  <!-- ABOUT THE INITIATIVE -->
-
-  <section id="team" class="section section-alt">
-
-    <div class="section-label">
-      About the initiative
-    </div>
-
-    <div class="section-content">
-
-      <h2>
-        A small volunteer network connecting people who can help with people who need it.
-      </h2>
-
-      <p>
-        This initiative is run by a small group of Iranians inside and
-        outside Iran. It began informally, through trusted personal
-        networks, before this website was created.
-      </p>
-
-      <p>
-        We are not currently a registered charity. Our aim is to keep the
-        structure simple while improving accountability, documentation
-        and transparency as the initiative develops.
-      </p>
-
-    </div>
-
-  </section>
-
-
-  <!-- RECIPIENT PROTECTION -->
+<!-- RECIPIENT PROTECTION -->
 
   <section id="protection" class="section">
 
@@ -739,21 +710,84 @@
       </h2>
 
       <p>
-        A dedicated contact email will be added before the public launch.
+        Contact information is currently being finalized.
         Please do not send sensitive recipient information through the
         website.
       </p>
-
-      <div class="contact-placeholder">
-        Contact address coming soon
-      </div>
 
     </div>
 
   </section>
 
 
-  <section class="legal-section">
+
+
+<section id="faq" class="section">
+
+<div class="section-label">
+Frequently asked questions
+</div>
+
+
+<div class="section-content">
+
+
+<h2>
+Common questions
+</h2>
+
+
+<div class="faq-item">
+
+<h3>
+How are contributions handled?
+</h3>
+
+<p>
+Contributions are collected outside Iran. Because financial transfers
+involving Iran are subject to significant restrictions, we do not publish
+operational transfer details. We take applicable financial restrictions
+seriously and do not knowingly provide funds to sanctioned individuals
+or entities.
+</p>
+
+</div>
+
+
+
+<div class="faq-item">
+
+<h3>
+How are families verified?
+</h3>
+
+<p>
+Requests are reviewed through available documentation, trusted referrals,
+local verification and direct communication where possible.
+</p>
+
+</div>
+
+
+
+<div class="faq-item">
+
+<h3>
+Why are recipient names not published?
+</h3>
+
+<p>
+Some recipients may face privacy or security risks. We publish aggregate
+information while protecting personal identities.
+</p>
+
+</div>
+</div>
+
+</section>
+
+
+<section class="legal-section">
 
     <div class="legal-inner">
 
@@ -761,8 +795,7 @@
 
       <p>
         This is currently an independent private aid initiative, not a
-        registered charitable organisation. Contributions are voluntary
-        and are not currently tax-deductible in Germany.
+        registered charitable organisation. Contributions are voluntary.
       </p>
 
       <p>
@@ -805,7 +838,7 @@
 
   <div class="footer-bottom">
     <p>
-      This website is currently under development.
+
     </p>
 
     <p>

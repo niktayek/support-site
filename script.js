@@ -27,6 +27,7 @@ function updateCampaignProgress() {
 
   const raisedTop = document.getElementById("campaign-raised");
   const goalTop = document.getElementById("campaign-goal");
+  const remainingTop = document.getElementById("campaign-remaining");
   const progressTop = document.getElementById("campaign-progress");
 
 
@@ -36,6 +37,14 @@ function updateCampaignProgress() {
 
   if (goalTop) {
     goalTop.textContent = formatNumber(campaign.goalEUR);
+  }
+
+  if (remainingTop) {
+    const remaining = Math.max(
+      campaign.goalEUR - campaign.raisedEUR,
+      0
+    );
+    remainingTop.textContent = formatNumber(remaining);
   }
 
   if (progressTop) {
