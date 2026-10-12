@@ -1280,7 +1280,7 @@ footer {
 }
 
 
-.hero-goal div {
+.hero-goal > div:not(.hero-progress) {
 
   padding: 20px 25px;
 
@@ -1290,15 +1290,15 @@ footer {
 }
 
 
-.hero-goal span,
-.hero-goal strong {
+.hero-goal > div:not(.hero-progress) > span,
+.hero-goal > div:not(.hero-progress) > strong {
 
   display: block;
 
 }
 
 
-.hero-goal span {
+.hero-goal > div:not(.hero-progress) > span {
 
   color: var(--muted);
   font-size: 13px;
@@ -1306,10 +1306,19 @@ footer {
 }
 
 
-.hero-goal strong {
+.hero-goal > div:not(.hero-progress) > strong {
 
   margin-top: 5px;
   font-size: 28px;
+
+}
+
+
+.hero-goal > div:not(.hero-progress) > strong span {
+
+  display: inline;
+  color: inherit;
+  font-size: inherit;
 
 }
 
@@ -1459,6 +1468,8 @@ footer {
 .hero-progress {
   margin-top: 18px;
   max-width: 800px;
+  flex-basis: 100%;
+  width: 100%;
 }
 
 .hero-progress-track {
